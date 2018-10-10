@@ -11,9 +11,17 @@ h1 {
 .image_top {
   background-image: url("../images/main.jpg");
   background-size: cover;
-  height: 500px;
+  background-position: center center;
+  height: 250px;
   width: 100%;
 }
+
+@media (min-width: 769px) {
+  .image_top {
+    height: 500px;
+  }
+}
+
 
 .container {
   
@@ -49,7 +57,7 @@ h1 {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
   .container {
      background: #fff;
     justify-content: space-evenly;
